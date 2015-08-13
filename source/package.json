@@ -1,12 +1,16 @@
 {
   "name": "source",
   "version": "1.0.0",
-  "description": "",
+  "description": "学习nodejs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "keywords": [
+    "AutoPrefixCSS",
+    "CSS3"
+  ],
+  "author": "yaochuxia <675993729@qq.com>",
   "license": "ISC",
   "devDependencies": {
     "grunt": "^0.4.5",
