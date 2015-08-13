@@ -1,0 +1,35 @@
+{
+  "name": "store.js",
+  "main": "store.js",
+  "version": "1.0.3",
+  "authors": [
+    "(kenny.wang <wowohoo@qq.co>)"
+  ],
+  "description": "\"本地存储localstorage的封装，提供简单的AIP\"",
+  "moduleType": [
+    "amd",
+    "node"
+  ],
+  "keywords": [
+    "storejs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/jaywcjlove/store.js",
+  "_release": "1.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.3",
+    "commit": "2b2a02bc185fa774d6c743dc119aa0016b81123f"
+  },
+  "_source": "git://github.com/jaywcjlove/store.js.git",
+  "_target": "~1.0.3",
+  "_originalSource": "storejs",
+  "_direct": true
+}
