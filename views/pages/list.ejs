@@ -1,6 +1,17 @@
 <% include ../includes/header %>
+<%- include('../includes/nav', {title:"图片列表页"}); %>
 
-这里是列表页面
-
+<% if(pic_list.length){ %>
+<article class="pic_list wp">
+    <ul>
+        <% pic_list.forEach(function(dt){ %>  
+        <li>
+            <a href="/pic/<%=dt._id%>"><i><img src="<%=dt.url%>"></i><span><%= dt.name %></span></a>
+        </li>
+        <% }) %>
+    </ul>
+    <div class="cl"></div>
+</article>
+<% } %>
 
 <% include ../includes/footer %>

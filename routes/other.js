@@ -24,8 +24,57 @@ module.exports = function (app) {
 
     //这个要放到最下面
     app.get('/*', function (req, res) {
-        res.render('404', { 
-            title: 'No Found' 
+        res.render('list', { 
+            title: '图片列表页',
+            pic_list: [{
+                name: "吸血鬼日记--埃琳娜·吉尔伯特",
+                _id: 1,
+                url: "/source/img/a1.jpg"
+            },{
+                name: "吸血鬼日记--埃琳娜·吉尔伯特",
+                _id: 5,
+                url: "/source/img/a2.jpg"
+            },{
+                name: "吸血鬼日记--埃琳娜·吉尔伯特",
+                _id: 3,
+                url: "/source/img/a3.jpg"
+            },{
+                name: "吸血鬼日记--埃琳娜·吉尔伯特",
+                _id: 4,
+                url: "/source/img/a4.jpg"
+            },{
+                name: "吸血鬼日记--埃琳娜·吉尔伯特",
+                _id: 5,
+                url: "/source/img/a5.jpg"
+            },{
+                name:"吸血鬼日记--埃琳娜·吉尔伯特",
+                _id: 6,
+                url:"/source/img/a6.jpg"
+            },{
+               name: "吸血鬼日记--埃琳娜·吉尔伯特",
+                _id: 7,
+                url: "/source/img/a7.jpg" 
+            },{
+               name: "吸血鬼日记--埃琳娜·吉尔伯特",
+                _id: 8,
+                url: "/source/img/a8.jpg" 
+            },{
+                name: "吸血鬼日记--埃琳娜·吉尔伯特",
+                _id: 9,
+                url: "/source/img/a9.jpg"
+            },{
+                name: "吸血鬼日记--埃琳娜·吉尔伯特",
+                _id: 10,
+                url: "/source/img/a10.jpg"
+            },{
+                name: "吸血鬼日记--埃琳娜·吉尔伯特",
+                _id: 11,
+                url: "/source/img/a11.jpg"
+            },{
+                name: "吸血鬼日记--埃琳娜·吉尔伯特",
+                _id: 12,
+                url: "/source/img/a12.jpg"
+            }]
         });
     });
 }
