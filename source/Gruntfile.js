@@ -10,14 +10,14 @@ module.exports = function(grunt) {
                     compress: true
                 },
                 files: [{
-                    'build/index.min.css': ['styl/index.styl']
+                    'build/index.min.css': ['styl/index.styl']//压缩后输出的位置及文件，要压缩的源文件，我们也可以用*表示通配，比如'styl/*.styl'
                 }]
             }
         },
         // watch插件的配置信息
         watch: {
             another: {
-                files: ['styl/*.styl'],
+                files: ['styl/*.styl',"build/*"],
                 tasks: ['stylus'],
                 options: {
                     livereload: 1337
